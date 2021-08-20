@@ -44,7 +44,7 @@ a {
 }
 
 button {
-  padding: 2 rem 6rem;
+  padding: 2rem 6rem;
   background: #4c6e97;
   border: none;
   color: #fff;
@@ -92,18 +92,9 @@ nav ul {
   font-weight: 400;
 }
 
-.cards {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  min-height: 70vh;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .hero {
   min-height: 90vh;
-  background: linear-gradient rgba(0, 0, 0, 0.8), transparent,
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url("./img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +105,15 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
