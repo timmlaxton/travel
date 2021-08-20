@@ -65,6 +65,7 @@ button:hover {
   position: sticky;
   top: 0px;
   z-index: 3;
+  opacity: 0.7;
 }
 
 nav {
@@ -75,6 +76,14 @@ nav {
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
 .cards {
