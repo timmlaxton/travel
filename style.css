@@ -38,6 +38,45 @@ h5 {
   font-size: 2.8rem;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  padding: 2 rem 6rem;
+  background: #4c6e97;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+  background: #4c6e97;
+}
+
+/* Nav */
+
+.main-head {
+  background: #000;
+  color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .cards {
   width: 90%;
   margin: auto;
