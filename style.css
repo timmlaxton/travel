@@ -119,6 +119,7 @@ nav ul {
   background-position: center;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .location-head {
@@ -133,6 +134,21 @@ nav ul {
 
 .location-head h3 {
   padding: 4rem 0rem;
+}
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.moving-cloud-1 {
+}
+
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0;
 }
 
 .cards {
