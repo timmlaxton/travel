@@ -86,7 +86,7 @@ nav ul {
 }
 
 #logo {
-  flex: 1 40rem;
+  flex: 1 2 40rem;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
 }
@@ -108,6 +108,31 @@ nav ul {
 
 .hero h3 {
   padding: 5rem;
+}
+
+/* location */
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("./img/highland-page.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.location-head {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+.location-head h2 {
+  padding: 1rem 0rem;
+}
+
+.location-head h3 {
+  padding: 4rem 0rem;
 }
 
 .cards {
