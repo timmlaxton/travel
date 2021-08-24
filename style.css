@@ -212,6 +212,14 @@ nav ul {
   background: #27394e;
 }
 
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+    url("./img/contact-mountain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 1024px) {
   html {
     font-size: 45%;
