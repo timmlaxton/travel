@@ -92,7 +92,7 @@ nav ul {
 }
 
 .hero {
-  min-height: 90vh;
+  min-height: 75vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url("./img/landing-page.jpg");
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ nav ul {
 
 /* location */
 #locations {
-  min-height: 100vh;
+  min-height: 75vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url("./img/highland-page.jpg");
   background-size: cover;
@@ -162,6 +162,22 @@ nav ul {
   to {
     transform: translate(0%, 0%);
   }
+}
+
+.benefits-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding: 1rem;
 }
 
 .cards {
