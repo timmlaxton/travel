@@ -141,6 +141,7 @@ nav ul {
   position: absolute;
   top: 0%;
   right: 0%;
+  animation: cloudAnimation 6s infinite alternate ease-in-out;
 }
 
 .moving-cloud-1 {
@@ -151,6 +152,7 @@ nav ul {
   top: 20%;
   z-index: -1;
   opacity: 0.5;
+  animation: cloudAnimation 4s infinite alternate ease-in-out;
 }
 
 @keyframes cloudAnimation {
@@ -192,4 +194,30 @@ nav ul {
 
 .card-icon {
   background: #27394e;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
+
+  .cloud {
+    height: 10rem;
+  }
+  .moving-cloud-1 {
+    z-index: -2;
+  }
+  .moving-cloud-2 {
+    z-index: -5;
+  }
+  .location-head h3 {
+    background: #fff;
+    -webkit-text-fill-color: #000;
+  }
 }
