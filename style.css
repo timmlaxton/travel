@@ -308,4 +308,13 @@ footer ul {
     background: #fff;
     -webkit-text-fill-color: #000;
   }
+  .form-wrapper {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 3rem;
+  }
 }
