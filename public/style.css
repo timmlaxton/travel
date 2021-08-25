@@ -190,6 +190,7 @@ nav ul {
   min-height: 70vh;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .card {
@@ -197,12 +198,18 @@ nav ul {
   flex: 1 1 25rem;
   min-height: 40vh;
   margin: 2rem 5rem;
+
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 .cards img {
-  max-width: 15%;
+  max-width: 50rem;
   margin: 2rem;
+}
+
+.img-1 {
+  position: absolute;
+  width: 50rem;
 }
 
 .card h4,
@@ -319,4 +326,23 @@ footer ul {
   footer h5 {
     padding-bottom: 3rem;
   }
+}
+
+.cardd {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: red;
+  width: 20%;
+  height: 25%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardd:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }

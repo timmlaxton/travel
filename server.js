@@ -19,9 +19,11 @@ app.post("/", (req, res) => {
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
+    host: "smtp.gmail.com",
+    port: 586,
     auth: {
       user: "audioeverything100@gmail.com",
-      password: "Monkey01!",
+      pass: "Monkey01!",
     },
   });
 
@@ -31,6 +33,8 @@ app.post("/", (req, res) => {
     subject: `Message from ${req.body.email}: ${req.body.subject}`,
     text: req.body.message,
   };
+
+  console.log("before send");
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
